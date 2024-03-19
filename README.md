@@ -1,2 +1,2 @@
 # cookbook-react
- A Cookbook using Context API and spoonacular API
+ A Cookbook Application using React Context API and spoonacular API
