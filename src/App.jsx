@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div>
-        <h3 className="text-center">Cook book using React Context API</h3>
+        <p className="text-center">React cookbook</p>
       </div>
       <button className="btn btn-primary" data-aos="fade-in">
         Animate

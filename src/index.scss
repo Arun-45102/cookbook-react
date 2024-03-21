@@ -1,5 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
 
-h3 {
-  font-weight: bolder;
+$primary-color: #fb4a36;
+$secondary-color: #fffcf5;
+$color-white: #ffffff;
+$color-black: #000000;
+
+$primary-font: "Lato", sans-serif;
+$secondary-font: "Cookie", cursive;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $primary-font;
+  font-size: 100%;
+  font-weight: 400;
+  line-height: 1.6;
+  text-decoration: none;
+  list-style-type: none;
+  background-color: $secondary-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
 }
